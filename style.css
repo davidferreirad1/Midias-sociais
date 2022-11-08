@@ -1,0 +1,213 @@
+@charset"UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font1: 'Roboto', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #1f1c1b;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 90px;
+    background-color: black;
+    width: 490px;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.twitter{
+    display: flex;
+    justify-content: stretch;
+    gap: 130px;
+    align-items: center;
+    height: 50px;
+    width: 450px;
+    background-color: #1f1c1b;
+    margin: 12px;
+    color: rgba(245, 245, 245, 0.671);
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 150;
+    font-size: 25px;
+    
+}
+
+.twitter:hover{
+    cursor: pointer;
+    background-color: #1f1c1bc9;
+
+}
+
+.instagram{
+    display: flex;
+    justify-content: stretch;
+    gap: 130px;
+    align-items: center;
+    height: 50px;
+    width: 450px;
+    background-color: #1f1c1b;
+    margin: 12px;
+    color: rgba(245, 245, 245, 0.671);
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 150;
+    font-size: 25px;
+    
+}
+
+.instagram:hover{
+    cursor: pointer;
+    background-color: #1f1c1bc9;
+
+}
+
+.github{
+    display: flex;
+    justify-content: stretch;
+    gap: 130px;
+    align-items: center;
+    height: 50px;
+    width: 450px;
+    background-color: #1f1c1b;
+    margin: 12px;
+    color: rgba(245, 245, 245, 0.671);
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 150;
+    font-size: 25px;
+    
+    
+}
+
+.github:hover{
+    cursor: pointer;
+    background-color: #1f1c1bc9;
+
+}
+
+.discord{
+    display: flex;
+    justify-content: stretch;
+    gap: 90px;
+    align-items: center;
+    height: 50px;
+    width: 450px;
+    background-color: #1f1c1b;
+    margin: 12px;
+    color: rgba(245, 245, 245, 0.671);
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 150;
+    font-size: 25px;
+    margin-bottom: 70px;
+    
+}
+
+.github:hover{
+    cursor: pointer;
+    background-color: #1f1c1bc9;
+}
+
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    color: white;
+    transform: translate(1%,-295%);
+
+}
+
+
+.foto{
+    display: flex;
+    margin: auto;
+}
+
+.foto > img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.twitter > img{
+    height: 30px;
+    margin: 10px;
+
+}
+
+.instagram > img{
+    height: 30px;
+    margin: 10px;
+}
+
+.discord > img{
+    height: 30px;
+    margin: 10px;
+}
+
+.github > img{
+    height: 30px;
+    margin: 10px;
+}
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    transform: translate(6%,-109%);
+    width: 90vw;
+}   
+
+hr{
+    width: 225px;
+    display: flex;
+}
+
+.chao{
+    width: 390px;
+    display: flex;
+
+}
+.carro{
+    display: flex;
+    justify-content: center;
+    transform: translate(-351%, 100%);
+
+    animation-name: dirigir;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.carro > img{
+    width: 70px;
+
+}
+
+@keyframes dirigir{
+    
+    from{transform:translateX(-200px);}
+    to{transform: translateX(200px);}
+}
