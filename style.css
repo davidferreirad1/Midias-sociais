@@ -32,19 +32,20 @@ main{
     margin-top: 20px;
     background-color: black;
     width: 490px;
-    height: 910px;
+    height: 810px;
     border-radius: 20px;
 }
 
 .twitter{
     display: flex;
     justify-content: stretch;
+    transform: translate(0%,-149%);
     gap: 130px;
     align-items: center;
     height: 50px;
     width: 450px;
     background-color: #1f1c1b;
-    margin: 12px;
+    margin: 15px;
     color: rgba(245, 245, 245, 0.671);
     border-radius: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -59,15 +60,17 @@ main{
 
 }
 
+
 .instagram{
     display: flex;
     justify-content: stretch;
+    transform: translate(0%, -175%);
     gap: 130px;
     align-items: center;
     height: 50px;
     width: 450px;
     background-color: #1f1c1b;
-    margin: 12px;
+    margin: 15px;
     color: rgba(245, 245, 245, 0.671);
     border-radius: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -85,6 +88,7 @@ main{
 .github{
     display: flex;
     justify-content: stretch;
+    transform: translate(0%, -195%);
     gap: 130px;
     align-items: center;
     height: 50px;
@@ -109,6 +113,7 @@ main{
 .discord{
     display: flex;
     justify-content: stretch;
+    transform: translate(0%, -142%);
     gap: 90px;
     align-items: center;
     height: 50px;
@@ -211,5 +216,5 @@ hr{
 @keyframes dirigir{
     
     from{transform:translateX(-200px);}
-    to{transform: translateX(200px);}
+    to{transform: translateX(180px);}
 }
