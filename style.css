@@ -142,10 +142,11 @@ main{
 .foto{
     display: flex;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .foto > img{
-    height: 200px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -178,7 +179,7 @@ footer{
     gap: 15px;
     display: flex;
     justify-content: center;
-    transform: translate(6%,-109%);
+    transform: translate(-8%,-157%);
     width: 90vw;
 }   
 
