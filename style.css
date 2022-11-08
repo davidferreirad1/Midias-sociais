@@ -29,10 +29,10 @@ main{
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 20px;
     background-color: black;
     width: 490px;
-    height: 800px;
+    height: 900px;
     border-radius: 20px;
 }
 
@@ -134,7 +134,7 @@ main{
     font-size: 30px;
     display: flex;
     color: white;
-    transform: translate(1%,-295%);
+    transform: translate(1%,-407%);
 
 }
 
@@ -179,7 +179,7 @@ footer{
     gap: 15px;
     display: flex;
     justify-content: center;
-    transform: translate(-8%,-157%);
+    transform: translate(-1%, -157%);
     width: 90vw;
 }   
 
