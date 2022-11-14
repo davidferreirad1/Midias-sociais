@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0px;
 }
 :root{
     --font1: 'Roboto', sans-serif;
@@ -28,7 +29,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
     background-color: black;
     width: 490px;
     height: 810px;
@@ -38,12 +39,13 @@ main{
 .twitter{
     display: flex;
     justify-content: stretch;
-    transform: translate(0%,-149%);
+    transform: translate(0%, 90%);
     gap: 130px;
     align-items: center;
     height: 50px;
     width: 450px;
     background-color: #1f1c1b;
+    margin-top: 20px;
     margin: 15px;
     color: rgba(245, 245, 245, 0.671);
     border-radius: 15px;
@@ -63,7 +65,7 @@ main{
 .instagram{
     display: flex;
     justify-content: stretch;
-    transform: translate(0%, -175%);
+    transform: translate(0%, 100%);
     gap: 130px;
     align-items: center;
     height: 50px;
@@ -87,7 +89,7 @@ main{
 .github{
     display: flex;
     justify-content: stretch;
-    transform: translate(0%, -195%);
+    transform: translate(0%, 110%);
     gap: 130px;
     align-items: center;
     height: 50px;
@@ -109,11 +111,11 @@ main{
 
 }
 
-.discord{
+.spotify{
     display: flex;
     justify-content: stretch;
-    transform: translate(0%, -142%);
-    gap: 90px;
+    transform: translate(0%, 120%);
+    gap: 130px;
     align-items: center;
     height: 50px;
     width: 450px;
@@ -124,11 +126,10 @@ main{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 150;
     font-size: 25px;
-    margin-bottom: 70px;
     
 }
 
-.github:hover{
+.spotify:hover{
     cursor: pointer;
     background-color: #1f1c1bc9;
 }
@@ -138,20 +139,10 @@ main{
     font-size: 30px;
     display: flex;
     color: white;
-    transform: translate(1%,-407%);
+    transform: translate(1%, 10%);
+    border-bottom: 10px;
+    border-color: white;
 
-}
-
-
-.foto{
-    display: flex;
-    margin: auto;
-    padding-bottom: 10px;
-}
-
-.foto > img{
-    height: 150px;
-    border-radius: 50%;
 }
 
 .twitter > img{
@@ -165,7 +156,7 @@ main{
     margin: 10px;
 }
 
-.discord > img{
+.spotify > img{
     height: 30px;
     margin: 10px;
 }
@@ -190,6 +181,7 @@ footer{
 hr{
     width: 225px;
     display: flex;
+    transform: translate(50%,50%);
 }
 
 .chao{
@@ -199,16 +191,17 @@ hr{
 }
 .carro{
     display: flex;
-    justify-content: center;
-    transform: translate(-351%, 100%);
-
+    justify-content: center; 
     animation-name: dirigir;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 
 }
 .carro > img{
+    display: flex;
+    transform: translate(17%, 173%);
     width: 70px;
+
 
 }
 
