@@ -1,4 +1,8 @@
 @media (max-width:414px){
+
+    body{
+        overflow-y: hidden;
+    }
     main{
         display: flex;
         flex-direction: column;
