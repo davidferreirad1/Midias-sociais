@@ -18,7 +18,7 @@
 
     .carro > img{
         display: flex;
-        transform: translate(0%, 17%);
+        transform: translate(0%, 65%);
         width: 70px;
     }
 
@@ -34,13 +34,12 @@
     .twitter{
         display: flex;
         justify-content: stretch;
-        transform: translate(0%,-149%);
+        transform: translate(0%,-60%);
         gap: 90px;
         align-items: center;
         height: 50px;
         width: 360px;
         background-color: #1f1c1b;
-        margin: 25px;
         color: rgba(245, 245, 245, 0.671);
         border-radius: 15px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -51,13 +50,12 @@
     .instagram{
         display: flex;
         justify-content: stretch;
-        transform: translate(0%, -199%);
+        transform: translate(0%, -90%);
         gap: 90px;
         align-items: center;
         height: 50px;
         width: 360px;
         background-color: #1f1c1b;
-        margin: 25px;
         color: rgba(245, 245, 245, 0.671);
         border-radius: 15px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -69,7 +67,8 @@
     .github{
         display: flex;
         justify-content: stretch;
-        transform: translate(0%, -224%);
+        transform: translate(0%, -110%);
+
         gap: 90px;
         align-items: center;
         height: 50px;
@@ -87,13 +86,12 @@
     .spotify{
         display: flex;
         justify-content: stretch;
-        transform: translate(0%, -252%);
+        transform: translate(0%, -120%);
         gap: 90px;
         align-items: center;
         height: 50px;
         width: 360px;
         background-color: #1f1c1b;
-        margin: 25px;
         color: rgba(245, 245, 245, 0.671);
         border-radius: 15px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
